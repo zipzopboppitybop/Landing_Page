@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color: rgb(41, 39, 39);
+}
+
+#header{
+    background-color: #1f2937;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+#logo{
+    width: 100px;
+    position: relative;
+    left: 100px;
+}
+
+a{
+    color: white;
+    position: relative;
+    left: 900px;
+    top: -30px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
