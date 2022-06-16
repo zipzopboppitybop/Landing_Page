@@ -7,6 +7,7 @@ body{
 #header{
     background-color: #1f2937;
     width: 50%;
+    height: 450px;
     position: relative;
     left: 25%;
 }
@@ -14,13 +15,20 @@ body{
 #logo{
     width: 100px;
     position: relative;
-    left: 100px;
+    left: 200px;
+}
+
+#logoT{
+    font-size: 24px;
+    position: relative;
+    left: 310px;
+    top: -72px;
 }
 
 a{
     color: white;
     position: relative;
-    left: 900px;
+    left: 700px;
     top: -30px;
     margin-right: 10px;
     text-decoration: none;
@@ -28,3 +36,43 @@ a{
     
 }
 
+h1{
+    color: white;
+    position: relative;
+    left: 200px;
+    top: 10px;
+    font-size: 48px;
+}
+
+p, #secondary{
+    color: white;
+    position: relative;
+}
+
+#secondary{
+    top: -15px;
+    left: 200px;
+    width: 400px;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    border: 0px solid white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#top_button{
+    left: 200px;
+    top: -20px;
+}
+
+#header_img{
+    position: relative;
+    left: 1440px;
+    top: -370px;
+    height: 300px;
+    width: 200px;
+}
