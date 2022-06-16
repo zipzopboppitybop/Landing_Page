@@ -2,6 +2,13 @@ body{
     margin: 0;
     height: 100%;
     background-color: rgb(41, 39, 39);
+    
+}
+
+div{
+    background-color: white;
+    width: 50%;
+    position: relative;
 }
 
 #header{
@@ -10,6 +17,14 @@ body{
     height: 450px;
     position: relative;
     left: 25%;
+}
+
+#header_img{
+    position: relative;
+    left: 1400px;
+    top: -370px;
+    height: 300px;
+    width: 300px;
 }
 
 #logo{
@@ -30,7 +45,7 @@ a{
     position: relative;
     left: 700px;
     top: -30px;
-    margin-right: 10px;
+    margin: 5px;
     text-decoration: none;
     font-size: 18px;
     
@@ -42,6 +57,13 @@ h1{
     left: 200px;
     top: 10px;
     font-size: 48px;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    top: 10%;
+    font-size: 30px;
 }
 
 p, #secondary{
@@ -69,10 +91,79 @@ button{
     top: -20px;
 }
 
-#header_img{
+
+#photos{
+    background-color: white;
+    width: 50%;
     position: relative;
-    left: 1440px;
-    top: -370px;
-    height: 300px;
+    left: 25%;
+    top: -322px;
+    height: 450px;
+}
+
+.stuff{
     width: 200px;
+    height: 150px;
+    position: relative;
+    left: 12%;
+    top: 15%;
+    margin-left: 30px;
+    border: 3px solid red;
+}
+
+#stuff_text_one{
+    color: black;
+    position: relative;
+    top: 12%;
+    left: 14.5%;
+    width: 200px;
+}
+
+#stuff_text_two{
+    color: black;
+    position: relative;
+    top: -33px;
+    left: 33.5%;
+    width: 200px;
+}
+
+#stuff_text_three{
+    color: black;
+    position: relative;
+    top: -102px;
+    left: 52%;
+    width: 200px;
+}
+
+#stuff_text_four{
+    color: black;
+    position: relative;
+    top: -245px;
+    left: 71%;
+    width: 200px;
+}
+
+#quote{
+    background-color: #e5e7eb;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: -360px;
+    height: 420px;
+}
+
+#quote_text{
+    color: black;
+    text-align: center;
+    width: 700px;
+    position: relative;
+    left: 23%;
+    top: 6%;
+    font-size: 36px;
+}
+
+h4{
+    font-style: italic;
+    position: relative;
+    left: 1000px;
 }
